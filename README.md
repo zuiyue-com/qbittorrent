@@ -1,4 +1,4 @@
-qBittorrent - A BitTorrent client in Qt
+qBittorrent 4.5.4 - A BitTorrent client in Qt
 ------------------------------------------
 
 [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/github/qbittorrent/qBittorrent?branch=master&svg=true)](https://ci.appveyor.com/project/qbittorrent/qBittorrent)
