@@ -67,7 +67,7 @@ set_target_properties(qbt_app PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINAR
 if (GUI)
     set_target_properties(qbt_app PROPERTIES OUTPUT_NAME qbittorrent)
 else()
-    set_target_properties(qbt_app PROPERTIES OUTPUT_NAME qbittorrent-nox)
+    set_target_properties(qbt_app PROPERTIES OUTPUT_NAME qbittorrent)
 endif()
 
 # Additional platform specific configuration

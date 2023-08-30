@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        libt_version: ["2.0.8", "1.2.18"]
+        libt_version: ["1.2.18"]
 
     env:
       boost_path: "${{ github.workspace }}/../boost"
@@ -123,6 +123,7 @@ jobs:
             -DVCPKG_TARGET_TRIPLET=x64-windows-static-release `
             -DVERBOSE_CONFIGURE=ON `
             -DDISABLE_GUI=ON `
+            -DGUI=OFF `
             --graphviz=build/target_graph.dot
           cmake --build build --target qbt_update_translations
           cmake --build build

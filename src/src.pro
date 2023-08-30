@@ -12,7 +12,7 @@ QT += network sql xml
 macx|*-clang*: QMAKE_CXXFLAGS_WARN_ON += -Wno-range-loop-analysis
 
 nogui {
-    TARGET = qbittorrent-nox
+    TARGET = qbittorrent
     QT -= gui
     DEFINES += DISABLE_GUI
 } else {
